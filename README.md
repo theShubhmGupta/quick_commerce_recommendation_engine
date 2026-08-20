@@ -108,7 +108,13 @@ order_products__prior.csv, order_products__train.csv
 Run the notebooks in order, 01 → 09. Each stage persists its output to `data/processed/`, so
 later notebooks load prior results rather than recomputing them.
 
+---
 
 ## Author
 
-**Shubham Gupta** — [GitHub](https://github.com/theShubhmGupta)
+**Shubham Gupta** 
+
+[![GitHub](https://img.shields.io/badge/GitHub-theShubhmGupta-black?logo=github)](https://github.com/theShubhmGupta)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-theshubhamguptaa-blue?logo=linkedin)](https://linkedin.com/in/theshubhamguptaa)
+[![Tableau](https://img.shields.io/badge/Tableau-Public-blue?logo=tableau)](https://public.tableau.com/app/profile/shubham.gupta2025)
+---
