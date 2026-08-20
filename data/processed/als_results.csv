@@ -1,0 +1,2 @@
+,k,n_users_evaluated,precision_at_k,recall_at_k
+ALS,10,131209,0.06551989573885939,0.0981054421813323

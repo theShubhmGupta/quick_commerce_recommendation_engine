@@ -1,0 +1,18 @@
+# Raw data (large)
+data/raw/
+
+# Processed data (regeneratable via notebooks, large — parquet files especially)
+data/processed/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db

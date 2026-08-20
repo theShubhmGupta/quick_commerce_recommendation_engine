@@ -1,0 +1,94 @@
+{
+  "shapes": {
+    "orders": [
+      3421083,
+      7
+    ],
+    "prior": [
+      32434489,
+      4
+    ],
+    "train": [
+      1384617,
+      4
+    ],
+    "products": [
+      49688,
+      4
+    ],
+    "aisles": [
+      134,
+      2
+    ],
+    "departments": [
+      21,
+      2
+    ]
+  },
+  "nulls": {
+    "orders": {
+      "order_id": 0,
+      "user_id": 0,
+      "eval_set": 0,
+      "order_number": 0,
+      "order_dow": 0,
+      "order_hour_of_day": 0,
+      "days_since_prior_order": 206209
+    },
+    "prior": {
+      "order_id": 0,
+      "product_id": 0,
+      "add_to_cart_order": 0,
+      "reordered": 0
+    },
+    "train": {
+      "order_id": 0,
+      "product_id": 0,
+      "add_to_cart_order": 0,
+      "reordered": 0
+    },
+    "products": {
+      "product_id": 0,
+      "product_name": 0,
+      "aisle_id": 0,
+      "department_id": 0
+    }
+  },
+  "eval_set_counts": {
+    "prior": 3214874,
+    "train": 131209,
+    "test": 75000
+  },
+  "n_unique_users": 206209,
+  "order_number_range": [
+    1,
+    100
+  ],
+  "duplicate_order_ids": 0,
+  "prior_order_ids_missing_from_orders": 0,
+  "train_order_ids_missing_from_orders": 0,
+  "orders_marked_prior": 3214874,
+  "unique_orders_in_prior_file": 3214874,
+  "orders_marked_train": 131209,
+  "unique_orders_in_train_file": 131209,
+  "orders_marked_test": 75000,
+  "prior_product_ids_missing_from_products": 0,
+  "train_product_ids_missing_from_products": 0,
+  "aisle_ids_in_products_not_in_aisles": 0,
+  "dept_ids_in_products_not_in_departments": 0,
+  "prior_reordered_value_counts": {
+    "1": 19126536,
+    "0": 13307953
+  },
+  "train_reordered_value_counts": {
+    "1": 828824,
+    "0": 555793
+  },
+  "add_to_cart_order_min": 1,
+  "days_since_prior_null_count": 206209,
+  "days_since_prior_null_all_are_first_order": true,
+  "last_order_eval_set_breakdown": {
+    "train": 131209,
+    "test": 75000
+  }
+}
